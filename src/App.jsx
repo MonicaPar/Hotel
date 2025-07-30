@@ -36,7 +36,7 @@ function App() {
     if (checkInDate < today) {
       Swal.fire({
         title: 'Error en la fecha de entrada',
-        text: 'La fecha de entrada no puede ser anterior a hoy.',
+        text: 'La fecha de entrada no puede ser anterior a la actual.',
         icon: 'error',
         confirmButtonText: 'Aceptar'
       });
